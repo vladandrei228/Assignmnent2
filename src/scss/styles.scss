@@ -11,5 +11,42 @@ h2
 }
 
 h1{
-    @extend h2;
+
+        background: red;
+        background: -webkit-linear-gradient(left, cyan , yellow, green);
+        background: -o-linear-gradient(right, red, yellow, purple);
+        background: -moz-linear-gradient(right, yellow, lime, orange);
+        background: linear-gradient(to right, cyan , purple, gray);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 98px;
+    
 }
+.Input {
+    display: flex;
+    flex-direction: row;
+}
+
+.Input input[type="button"], .Input select {
+    cursor: pointer;
+}
+
+.Results {
+    max-width: 60%;
+}
+
+.Results ul {
+    padding: 0;
+    border: 1px solid #66d38a;
+    background-color: gray;
+}
+
+.Results ul li {
+    padding: 5px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 150px 5fr;
+    list-style: none;
+}
+
+
