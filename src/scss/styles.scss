@@ -7,7 +7,22 @@ $colorHeading: #be4a14;
 
 h2
 {
-    color: $colorHeading;
+    background: red;
+    background: -webkit-linear-gradient(left, cyan , yellow, green);
+    background: -o-linear-gradient(right, red, yellow, purple);
+    background: -moz-linear-gradient(right, yellow, lime, orange);
+    background: linear-gradient(to right, cyan , purple, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3{
+    background: red;
+        background: -webkit-linear-gradient(left, cyan , yellow, green);
+        background: -o-linear-gradient(right, red, yellow, purple);
+        background: -moz-linear-gradient(right, yellow, lime, orange);
+        background: linear-gradient(to right, cyan , purple, gray);
+        -webkit-text-fill-color: transparent;
 }
 
 h1{

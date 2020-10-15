@@ -7,7 +7,6 @@ function ManipulateString() {
   
     if(option == "Uppercase"){string = string.toUpperCase(); }
     else if (option == "Lowercase") {string = string.toLowerCase(); }
-
    
    
     result.appendChild(CreateNode(string));
